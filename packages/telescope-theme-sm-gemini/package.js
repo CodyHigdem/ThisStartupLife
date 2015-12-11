@@ -7,6 +7,9 @@ Package.describe({
 
 Package.onUse(function (api) {
 
+  // images
+  api.addAssets('img/header-bg.jpg', 'client');
+
   api.use([
       // core dependencies
       'telescope:core@0.22.2',
@@ -54,8 +57,7 @@ Package.onUse(function (api) {
       'lib/client/scripts/icons_gemini.js',
       'lib/client/scripts/templates_gemini.js',
 
-      // images
-      addAssets('img/header-bg.jpg')
+
 
     ],
     'client'
