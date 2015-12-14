@@ -198,12 +198,12 @@
     }
 }
 .avatar.avatar-circle {
-    border: 5px black;
+    border: 1px black;
     @media screen and (min-width: 38em) {
       border-width: 8px
     }
-    border-radius: 50px;
-    border-style: ridge;
+    border-radius: 10px;
+    border-style: solid;
     border-right-color: rgb(35, 204, 199);
 }
 .avatar .avatar-initials {
